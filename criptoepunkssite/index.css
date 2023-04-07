@@ -1,0 +1,160 @@
+@font-face {
+   font-family: magna;
+   src: url(Magna-BlackCondensed.otf); 
+ }
+
+ @font-face {
+  font-family: pixel;
+  src: url(04B_30__.TTF);
+ }
+
+ @font-face {
+  font-family: minecraft;
+  src: url(Minecraft.ttf);
+ }
+ 
+ html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ 
+ .main {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   background-color: transparent;
+ }
+ 
+ .side1 {
+   background-color: transparent;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+ }
+ 
+ .text1 {
+   color: rgb(71, 144, 211);
+   display: flex;
+   justify-content: center;
+   font-family: "pixel", sans-serif;
+   letter-spacing: 10px;
+   font-size: 50px;
+ }
+ 
+ .punkdisplay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+ 
+ .image {
+   width: 108px;
+   height: 108px;
+   object-fit: cover;
+   transition: all 0.2s ease-in-out, transform 0.5s ease;
+ }
+ 
+ .image:hover {
+   transform: scale(1.2);
+   z-index: 1;
+ }
+ 
+ #generate {
+  position: absolute;
+ }
+
+ .writing1 {
+  color: white;
+  margin-top: 110px;
+  letter-spacing: 0px;
+ }
+
+ .aboutwriting {
+  width: 500px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding-left: 15px;
+  border-left: 5px solid white;
+  font-family: "minecraft", sans-serif;
+  font-size: 17px;
+ }
+
+ .heading1 {
+  color: rgb(255, 215, 0);
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: "pixel", sans-serif;
+  letter-spacing: 10px;
+ }
+
+ .writing2 {
+  color: white;
+  margin-top: 110px;
+  letter-spacing: 0px;
+ }
+
+ .aboutwriting2 {
+  width: 800px;
+  text-align: center;
+  font-family: "pixel", sans-serif;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .text2 {
+  color: rgb(229, 37, 33);
+  display: flex;
+  justify-content: center;
+  font-family: "pixel", sans-serif;
+  letter-spacing: 10px;
+ }
+
+ .letter-container {
+  color: rgb(71, 144, 211);
+   display: flex;
+   justify-content: center;
+   font-family: "pixel", sans-serif;
+   letter-spacing: 10px;
+   font-size: 50px;
+}
+
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.connect-wallet {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(71, 144, 211);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'pixel', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.connect-wallet:hover {
+  background-color: rgb(45, 95, 139);
+}
+
+
